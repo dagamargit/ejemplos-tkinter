@@ -21,6 +21,7 @@ class Aplicacion:
     def incrementar(self):
         self.valor=self.valor+1
         self.label1.config(text=self.valor)
+        -- self.label1["text"]=self.valor
 
     def decrementar(self):
         self.valor=self.valor-1
