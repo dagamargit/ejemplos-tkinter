@@ -43,6 +43,10 @@ class Aplicacion:
 
 
     def copiar(self):
+        # datos=self.scrolledtext1.get("1.0", "3.10") #fila 1 columna 0  hasta  fila 3 columna 10
+        #
+        # Borrar contenido:
+        # self.scrolledtext2.delete("1.0", tk.END)
         iniciofila=self.dato1.get()
         iniciocolumna=self.dato2.get()
         finfila=self.dato3.get()
